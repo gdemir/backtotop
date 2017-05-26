@@ -1,18 +1,18 @@
-if ($('#back-to-top').length) {
+if ($('#backtotop').length) {
   var scrollTrigger = 100, // px
   backToTop = function () {
     var scrollTop = $(window).scrollTop();
     if (scrollTop > scrollTrigger) {
-      $('#back-to-top').addClass('show');
+      $('#backtotop').addClass('show');
     } else {
-      $('#back-to-top').removeClass('show');
+      $('#backtotop').removeClass('show');
     }
   };
   backToTop();
   $(window).bind('scroll', function () {
     backToTop();
   });
-  $('#back-to-top').on('click', function (e) {
+  $('#backtotop').on('click', function (e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: 0 }, 800);
   });
