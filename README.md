@@ -20,7 +20,7 @@
   <!-- back_to_top start -->
   <!-- source : http://github.com/gdemir/backtotop -->
   <link rel="stylesheet" type="text/css" href="backtotop.css" />
-  <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+  <a href="#" id="backtotop" title="Back to top">&uarr;</a>
   <script src="backtotop.js"></script>
   <!-- back_to_top end -->
 
