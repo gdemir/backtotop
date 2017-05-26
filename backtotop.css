@@ -1,4 +1,4 @@
-#back-to-top {
+#backtotop {
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -16,9 +16,9 @@
   transition: opacity 0.2s ease-out;
   opacity: 0;
 }
-#back-to-top:hover {
+#backtotop:hover {
   background: #e9ebec;
 }
-#back-to-top.show {
+#backtotop.show {
   opacity: 1;
 }
