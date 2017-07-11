@@ -19,9 +19,9 @@
 
   <!-- backtotop start -->
   <!-- source : http://github.com/gdemir/backtotop -->
-  <link rel="stylesheet" type="text/css" href="backtotop.css" />
+  <link rel="stylesheet" type="text/css" href="backtotop.min.css" />
   <a href="#" id="backtotop" title="Back to top">&uarr;</a>
-  <script src="backtotop.js"></script>
+  <script src="backtotop.min.js"></script>
   <!-- backtotop end -->
 
 </body>
